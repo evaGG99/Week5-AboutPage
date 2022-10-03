@@ -9,8 +9,12 @@ body{
     background-color: var(--bg-color);
     font-family: var(--default-font-family);
 }
+.row{
+    margin: 0 50px 0 140px;
+}
 h1{
     font-family: var(--heading-font-family);
+    font-size: 60px;
 }
 h2{
     font-family: var(--heading-font-family);
@@ -23,22 +27,23 @@ h1, h2{
 p{
     font-family: var(--default-font-family);
     font-size: 20px;
+    margin-top: 12px;
 }
 .btn-branding{
     background: var(--branding-color);
     border-radius: 6px;
     color: white;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 30px;
+    margin-top: 50px;
     padding: 10px 20px;
 }
 .about-page{
     padding: 160px 20px;
 }
 @media (max-width: 900px) {
+    .about-page{
+        text-align: center;
+        padding: 0;
+    }
 }
-/* @media (max-width: 900px)
-.about-page {
-    text-align: center;
-    padding: 0;
-} */
